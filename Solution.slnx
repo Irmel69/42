@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="API/API.csproj" Id="ed3c880d-0ad7-4f51-a6ec-5e4bf655c35b" />
+  <Project Path="Contracts/Contracts.csproj" Id="4a4b0f50-1289-42d7-a5b6-b9c251627952" />
+</Solution>
