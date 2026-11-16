@@ -3,14 +3,34 @@
 ./API/obj/Debug/net10.0
 ./API/obj/Release/net10.0
 
+# Build-Ergebnisse
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-# Visual Studio user-specific files
+# Visual Studio & benutzerspezifische Dateien
+.vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Build folders
-[Bb]in/
-[Oo]bj/
-.vs/
+# NuGet-Pakete & Restore-Caches
+*.nuget.props
+*.nuget.targets
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
+project.assets.json
+project.nuget.cache
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.direnv/
+result
+result-*
