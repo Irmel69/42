@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Contracts.Enum;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Contracts
+namespace Contracts.Classes
 {
     public class CurrentUser
     {
