@@ -10,6 +10,20 @@
 *.userosscache
 *.sln.docstates
 
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.csproj.AssemblyReference.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.assets.json
+*.nuget.cache
+
+
+
 # Build folders
 [Bb]in/
 [Oo]bj/
