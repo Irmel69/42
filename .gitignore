@@ -2,3 +2,15 @@
 /API/bin/Debug/net10.0
 /API/obj/Debug/net10.0
 /API/obj/Release/net10.0
+
+
+# Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+.vs/
