@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Contracts.DTOs;
 
-namespace Contracts.Interfaces
+namespace Contracts.Interfaces;
+
+public interface IUserService
 {
-    internal interface IUserService
-    {
-    }
+    Task<AuthenticationResult> RegisterAsync(string userName, string password);
+    Task<AuthenticationResult> LoginAsync(string userName, string password);
+    Task LogoutAsync();
 }
