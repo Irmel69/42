@@ -1,16 +1,12 @@
-using System;
+using Contracts.DTOs;
 
 namespace Contracts.Interfaces;
 
 public interface ITemplateDataAccess
 {
-    public Task AsyncSaveData(string guid);
-
-    public Task AsyncGetData(string guid);
-
-    public Task AsyncUpdateData(string guid);
-
-    public Task AsyncGetAllData();
-
-    public Task AsyncDeleteData(string guid);
+    Task<TaskTemplateDTO> SaveDataAsync(TaskTemplateDTO template);
+    Task<TaskTemplateDTO?> GetDataAsync(string taskId);
+    Task<IReadOnlyList<TaskTemplateDTO>> GetAllDataAsync();
+    Task<bool> UpdateDataAsync(TaskTemplateDTO template);
+    Task<bool> DeleteDataAsync(string taskId);
 }

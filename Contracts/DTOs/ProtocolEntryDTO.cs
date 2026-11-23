@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Contracts.DTOs
+﻿namespace Contracts.DTOs
 {
-    internal class ProtocolEntryDTO
+    public class ProtocolEntryDTO
     {
+        public string ProtocolID { get; set; } = string.Empty;
         public string TaskID { get; set; } = string.Empty;
         public string Note { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
